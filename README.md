@@ -7,6 +7,12 @@
 
 ## Scripts
 
+launch webpack build:
 ```sh
 npm run build
+```
+
+launch webpack-dev-server (available at http://localhost:8080):
+```sh
+npm run dev
 ```
