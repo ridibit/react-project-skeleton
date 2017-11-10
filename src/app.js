@@ -3,9 +3,14 @@ import {render} from 'react-dom';
 
 import styles from './index.css';
 
+import ReactImage from './assets/react.svg';
+
 export default class App extends Component {
 	render() {
-		return <div>Hello!</div>;
+		return <div>
+			Hello!
+			<img src={ReactImage} alt="React"/>
+		</div>;
 	}
 }
 
